@@ -1,4 +1,3 @@
-# Object detection code via OpenCV (https://www.youtube.com/watch?v=HXDD7-EnGBY)
 import cv2
 import datetime #can delete this import
 import numpy as np
@@ -6,11 +5,8 @@ import argparse
 
 # Set videocapture method
 #cap = cv2.VideoCapture(0)  # to use laptop camera
-input_video = '' #path to input video
+input_video = '' # path to input video
 cap = cv2.VideoCapture(input_video)  # to use input video
-
-# Initialisation
-radius = 2
 
 classNames = []
 classFile = 'labels.txt'
